@@ -6,9 +6,9 @@ let counter=0;
         }
      }
      if(counter==2){
-        return false;
+        return true;
      }
-      return true;
+      return false;
 }
 
 let answer=prime(13);
